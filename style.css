@@ -77,7 +77,7 @@ ul {
 
 /* Header */
 header {
-    background-color: aquamarine;
+    background-color: rgb(106, 161, 95);
     color: white;
     position: sticky;
     top: 0;
@@ -170,7 +170,7 @@ main {
 /* General */
 #general > h2 {
     text-align: center;
-    background-color: pink;
+    background-color: rgb(79, 140, 67);
 }
 
 #general > p {
@@ -225,7 +225,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: aquamarine;
+    background-color: rgb(106, 161, 95);
     color: white;
     font-size: 1.25rem;
     line-height: 1.75rem;
