@@ -31,8 +31,6 @@ const solar = {
     costs: ""
 }
 
-const 
-
 
 
 const replaceItem = (energyType) => {
