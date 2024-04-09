@@ -31,9 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -72,6 +69,10 @@ a {
 
 h2 {
     font-size: 1.875rem;
+}
+
+ul {
+    margin-left: 20px;
 }
 
 /* Header */
