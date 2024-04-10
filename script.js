@@ -14,11 +14,11 @@ const hydrohref = document.getElementsByClassName("hydro");
 
 // Also an option instead of the const solar I currently have
 class energy {
-    constructor(type, atHome, basics, taxes, costs) {
+    constructor(type, atHome, basics, rebates, costs) {
         this.type = type;
         this.atHome = atHome;
         this.basics = basics;
-        this.taxes = taxes;
+        this.rebates = rebates;
         this.costs = costs;
     }
 }
@@ -27,7 +27,7 @@ const solar = {
     type: "Solar",
     atHome: "<p>You can use solar power to both provide electricity and heating to your home.</p>",
     basics: "<p>Two Types of solar electric systems</p><ul><li>Grid tied - home generates own electricity, but can use the power grid at night if needed</li><li>Off grid - not connected to the grid, is self sufficient, stores electricity in batteries for the night</li></ul>",
-    taxes: "",
+    rebates: "<p>Oregon Solar and Storage Rebate</p>",
     costs: ""
 }
 
