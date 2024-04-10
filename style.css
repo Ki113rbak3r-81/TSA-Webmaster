@@ -71,6 +71,14 @@ h2 {
     font-size: 1.875rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
 ul {
     margin-left: 20px;
 }
@@ -82,6 +90,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
+    max-height: 15vh;
 }
 
 header > section {
@@ -105,16 +114,81 @@ header > section > nav > * + * {
     font-size: 1.25rem;
 }
 
-#hamburger-button {
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+.nav-list-item {
+    float: left;
+    list-style-type: none;
+}
+
+.nav-list-item > a {
+    display: block;
+    color: ivory;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-list-item > a:hover {
+    background-color: aquamarine;
+}
+
+
+
+mobile
+.mobile-nav {
+    display: hidden;
+    overflow: hidden;
+    position: relative;
+}
+
+.mobile-nav > .mobile-links {
+    display: none;
+}
+
+.mobile-nav a {
+    color: ivory;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.mobile-nav a.ham {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.mobile-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: pink;
+    color: black;
+}
+
+
+
+/* #hamburger-button {
     font-size: 1.875rem;
     cursor: pointer;
     position: relative;
     width: 2rem;
     height: 2rem;
-}
+} */
 
 /* Hamburger Bars and animation */
-.hamburger-bar {
+/* .hamburger-bar {
     display: block;
     background-color: white;
     width: 2rem;
@@ -157,7 +231,7 @@ header > section > nav > * + * {
 .toggle-btn > div {
     background-color: transparent;
     transform: rotate(720deg);
-}
+} */
 
 /* Main */
 main {
@@ -188,6 +262,31 @@ main {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-name {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.about-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%
+}
+
+.about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 75%;
 }
 
 
@@ -257,7 +356,7 @@ footer > section > div > p {
 
 
 /* Mobile Menu */
-#mobile-menu {
+/* #mobile-menu {
     position: absolute;
     top: 17rem;
     background-color: black;
@@ -285,7 +384,7 @@ footer > section > div > p {
     text-align: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-}
+} */
 
 /* Mobile Changes */
 @media (min-width: 768px) {
@@ -295,6 +394,9 @@ footer > section > div > p {
     nav {
         display: block;
     }
+    /* .mobile-nav {
+        display: block;
+    } */
     footer > nav {
         display: flex;
     }

@@ -11,31 +11,47 @@
     <header>
         <section>
           <h1>
-            <a href="#hero">पखवाड़ा</a>
+            <a href="index.html"><img src="webmaster-logo.png" alt="Green Energy Solutions Logo" width="64" height="64"></a>
+            <h1>Green Energy Solutions</h1>
           </h1>
           <div>
-            <button id="hamburger-button">
-                <!-- fix this -->
-              <!-- &#9776;  trigram for heaven (hamburger), only appears with smaller resolution-->
+            <!-- <div class="mobile-nav" class="active">
+              <ul class="mobile-links">
+                <li class="mobile-list-item"><a href="energy-template.html" class="solar">Solar</a></li>
+                <li class="mobile-list-item"><a href="energy-template.html" class="geo">Geothermal</a></li>
+                <li class="mobile-list-item"><a href="energy-template.html" class="bio">Biomass</a></li>
+                <li class="mobile-list-item"><a href="energy-template.html" class="nuclear">Nuclear</a></li>
+                <li class="mobile-list-item"><a href="energy-template.html" class="wind">Wind</a></li>
+                <li class="mobile-list-item"><a href="energy-template.html" class="hydro">Hydro</a></li>
+              </ul>
+            </div>
+            <a href="javascript:void(0);" class="ham" onclick="mobileDisplay()">
+              <i class="fa fa-bars"></i>
+            </a> -->
+            <!-- <button id="hamburger-button">
+                fix this
+              &#9776;  trigram for heaven (hamburger), only appears with smaller resolution
               <div class="hamburger-bar"></div>
-            </button>
+            </button> -->
             <nav aria-label="main">
-              <a href="energy-template.html" class="solar">Solar</a>
-              <a href="energy-template.html">Gerthermal</a>
-              <a href="energy-template.html">Biomass</a>
-              <a href="energy-template.html">Nuclear</a>
-              <a href="energy-template.html">Wind</a>
-              <a href="energy-template.html">Hydro</a>
+              <ul id="nav-list">
+                <li class="nav-list-item"><a href="energy-template.html" class="solar">Solar</a></li>
+                <li class="nav-list-item"><a href="energy-template.html" class="geo">Geothermal</a></li>
+                <li class="nav-list-item"><a href="energy-template.html" class="bio">Biomass</a></li>
+                <li class="nav-list-item"><a href="energy-template.html" class="nuclear">Nuclear</a></li>
+                <li class="nav-list-item"><a href="energy-template.html" class="wind">Wind</a></li>
+                <li class="nav-list-item"><a href="energy-template.html" class="hydro">Hydro</a></li>
+              </ul>
             </nav>
           </div>
         </section>
-        <section id="mobile-menu" class="hidden">
+        <!-- <section id="mobile-menu" class="hidden">
           <nav aria-label="mobile">
             <a href="#hero">Home</a>
-            <a href="#button-grid">Buttons</a> <!-- Put the different types as a grid pof buttons -->
+            <a href="#button-grid">Buttons</a> Put the different types as a grid pof buttons
             <a href="#footer">Footer</a>
           </nav>
-        </section>
+        </section> -->
     </header>
     <main>
         <article id="general">
@@ -54,22 +70,22 @@
           <div class="row">
             <div class="col">
               <div class="card">
-                <img src="aiden.jpg" alt="Aiden DeRosia">
+                <h3 class="card-name">Aiden DeRosia</h3>
+                <img src="webmaster-aiden.jpg" alt="Aiden DeRosia" class="about-img">
                 <div>
-                  <h3>Aiden DeRosia</h3>
                   <p class="title">Lead Programmer</p>
-                  <p>lorum ipsum</p>
+                  <p class="about-text">lorum ipsum</p>
                 </div>
               </div>
             </div>
 
             <div class="col">
               <div class="card">
-                <img src="sofia.jpg" alt="Sofia Adair">
+                <h3 class="card-name">Sofia Adair</h3>
+                <img src="webmaster-sofia_50.jpg" alt="Sofia Adair" class="about-img">
                 <div>
-                  <h3>Sofia Adair</h3>
                   <p class="title">Lead Designer</p>
-                  <p>lorum ipsum</p>
+                  <p class="about-text">lorum ipsum</p>
                 </div>
               </div>
             </div>
@@ -80,11 +96,11 @@
           <h2>Extra Navigation</h2> <!-- Replace this -->
           <div id="button-grid-container">
             <a href="energy-template.html" class="button-grid-item solar"><button>Solar</button></a>
-            <a href="energy-template.html" class="button-grid-item"><button>Geothermal</button></a>
-            <a href="energy-template.html" class="button-grid-item"><button>Biomass</button></a>
-            <a href="energy-template.html" class="button-grid-item"><button>Nuclear</button></a>
-            <a href="energy-template.html" class="button-grid-item"><button>Wind</button></a>
-            <a href="energy-template.html" class="button-grid-item"><button>Hydro</button></a>
+            <a href="energy-template.html" class="button-grid-item geo"><button>Geothermal</button></a>
+            <a href="energy-template.html" class="button-grid-item bio"><button>Biomass</button></a>
+            <a href="energy-template.html" class="button-grid-item nuclear"><button>Nuclear</button></a>
+            <a href="energy-template.html" class="button-grid-item wind"><button>Wind</button></a>
+            <a href="energy-template.html" class="button-grid-item hydro"><button>Hydro</button></a>
           </div> 
         </article>
     </main>
