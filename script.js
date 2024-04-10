@@ -28,7 +28,7 @@ const solar = {
     atHome: "<p>You can use solar power to both provide electricity and heating to your home.</p>",
     basics: "<p>Two Types of solar electric systems</p><ul><li>Grid tied - home generates own electricity, but can use the power grid at night if needed</li><li>Off grid - not connected to the grid, is self sufficient, stores electricity in batteries for the night</li></ul>",
     rebates: "<p>Oregon Solar and Storage Rebate</p>",
-    costs: ""
+    costs: "<p>A grid tied system costs about $1500 to $20000</p>"
 }
 
 
@@ -38,7 +38,7 @@ const replaceItem = (energyType) => {
     energyTypeTag.innerText = energyType.type;
     atHomeTag.innerHTML = energyType.atHome;
     basicsTag.innerHTML = energyType.basics;
-    taxTag.innerHTML = energyType.taxes;
+    taxTag.innerHTML = energyType.rebates;
     costTag.innerHTML = energyType.costs;
 }
 
