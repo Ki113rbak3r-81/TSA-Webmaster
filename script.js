@@ -99,7 +99,7 @@ if (window.location.href.includes("energy-template.html")) {
     }
     const energyTypeOnLoad = localStorage.getItem("energyType");
 
-    if (energyTypeOnLoad) {
+    if (energyTypeOnLoad !== null) {
         const energyObject = getEnergyObject(energyTypeOnLoad);
 
         replaceItem(energyObject);
@@ -150,3 +150,8 @@ const initApp = () => {
 
 
 document.addEventListener('DOMContentLoaded', initApp)
+
+
+window.BeforeUnloadEvent = () => {
+    localStorage.clear();
+}
