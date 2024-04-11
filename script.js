@@ -39,9 +39,9 @@ if (window.location.href.includes("energy-template.html")) {
     }
 
     const solar = new energy("Solar", 
-        "<h3>Solar Energy At Home</h3><p>You can use solar power to both provide electricity and heating to your home.</p><img src=\"solar.jpg\" alt=\"Solar Panels\">",
+        "<h3>Solar Energy At Home</h3><p>Solar energy is normally used to provide both electricity and heating to your home.</p><img src=\"solar.jpg\" alt=\"Solar Panels\"><p>Some things to consider if you are looking to implament solar power are:</p><ul><li>The shape and slant of your roof.</li><li>How much tree coverage you have.</li></ul>",
         "<h3>Basic Info</h3><p>Two Types of solar electric systems</p><ul><li>Grid tied: home generates own electricity, but can use the power grid at night if needed</li><li>Off grid: not connected to the grid, is self sufficient, stores electricity in batteries for the night</li></ul>",
-        "<h3>Tax Rebates and Credit</h3><p>Oregon Solar + Storage Rebate is for homeowners that want to install solar electric systems and storage. Normal income homeowners can receive up to $5000 for the solar electric system and up to $2500 for the storage systems. Low income providers cna save up to $30000 for solar, and $15000 for storage. It must be installed by an ODOE approved contractor + both systems must be bought together in order to get the paired storage rebate.</p>",
+        "<h3>Tax Rebates and Credit</h3><p>Oregon Solar + Storage Rebate is for homeowners that want to install solar electric systems and storage.</p><ul><li>Normal income homeowners can receive up to $5000 for the solar electric system and up to $2500 for the storage systems.</li><li>Low income providers cna save up to $30000 for solar, and $15000 for storage.</li></ul><p>It must be installed by an ODOE approved contractor + both systems must be bought together in order to get the paired storage rebate.</p>",
         "<h3>Costs</h3><ul><li>Grid tied system -- approximately $15,000 - $20,000</li><li>Off grid system -- approximately $45,000 - $65,000</li><li>Pay themselves off after approximately 8 years, but can range anywhere from 5 to 15.</li></ul>"
     )
 
@@ -53,9 +53,9 @@ if (window.location.href.includes("energy-template.html")) {
     )
 
     const bio = new energy("Biomass",
+        "<h3>Biomass Energy at Home</h3><p>Use Wood + Pellet Stoves / Boilers</p>",
         "",
-        "",
-        "",
+        "<h3>Tax Rebates and Credit</h3><p>If you use wood + pellet stoves/boilers, can get 30% of the cost paid by the consumer, up to $2000 a year.</p>",
         ""
     )
 
