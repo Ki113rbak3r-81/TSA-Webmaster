@@ -53,10 +53,10 @@ if (window.location.href.includes("energy-template.html")) {
     )
 
     const bio = new energy("Biomass",
-        "<h3>Biomass Energy at Home</h3><p>Use Wood + Pellet Stoves / Boilers</p><img src=\"biomass.jpg\" alt=\"wood chips\" width=\"259\">",
+        "<h3>Biomass Energy at Home</h3><p>Biomass energy is the energy created by burning biodegradeable materials which you then use to power your home. To implament it, you would use Wood and Pellet burning stoves or burners</p><img src=\"biomass.jpg\" alt=\"wood chips\" width=\"259\">",
         "<h3>Basic Info</h3><p>Biomass Energy uses wood, pellets, and natural resources to produce energy. This makes it renewable and 100% carbon neutral, meaning switching to it will greatly reduce the amount of greenhouse gasses emitted.</p>",
         "<h3>Tax Rebates and Credit</h3><p>If you use wood + pellet stoves/boilers, can get 30% of the cost paid by the consumer, up to $2000 a year.</p>",
-        ""
+        "<h3>Costs</h3><p>Costs 11 and a half cents per kilowatt hour; or $1,242 per year assuming you are not paying for the burning materials</p>"
     )
 
     const nuclear = new energy("Nuclear",
@@ -75,8 +75,8 @@ if (window.location.href.includes("energy-template.html")) {
 
     const hydro = new energy("Hydro",
         "<h3>Hydro Power At Home</h3><p>Microhydropower systems can be an extremely simple and efficient form of energy for homeowners, as long as you live close or next to flowing water.</p><img src=\"hydro.jpg\" alt=\"Water Dam\" width=\"259\">",
-        "<h3>Basic Info</h3><p>Hydroelectric energy uses the flow and movement of water in order to create electricity. It is one of the oldest and largest renewable sources of energy. Hydroelectric energy provides up to $5.50 per megawatt-hour of electricity, plus $22 per megawatt-hour if labor standards are met. There is also up to 2.75 cents per kilowatt-hour dollars from qualified renewable sources.</p>",
-        "<h3>Tax Rebates and Credit</h3><p>Tax rebates</p>",
+        "<h3>Basic Info</h3><p>Hydroelectric energy uses the flow and movement of water in order to create electricity. It is one of the oldest and largest renewable sources of energy.</p>",
+        "<h3>Tax Rebates and Credit</h3><p>Hydroelectric energy provides up to $5.50 per megawatt-hour of electricity, plus $22 per megawatt-hour if labor standards are met. There is also up to 2.75 cents per kilowatt-hour dollars from qualified renewable sources.</p>",
         "<h3>Costs</h3><p>On average hydroelectric energy is 0.85 cents per kilowatt-hour, which is $850 per megawatt-hour. With the average megawatt-hour usage for a home being 10.8, this means on average hydroelectric power costs $9180 per year. It will pay itself off in about 15 years.</p>"
     )
 
