@@ -140,6 +140,12 @@ if (window.location.href.includes("energy-template.html")) {
 //     }
 // }
 
+const initP = document.getElementById("initiative");
+
+const rollInitiative = () => {
+    initP.innerText = (Math.random() * (20 - 1) + 1 | 0);
+}
+
 const initApp = () => {
     document.getElementById("year").innerHTML = new Date().getFullYear();
     
