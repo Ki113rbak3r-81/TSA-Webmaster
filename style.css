@@ -61,6 +61,7 @@ html {
 
 body {
     min-height: 100vh;
+    display:flex; flex-direction: column;
 }
 
 a {
@@ -146,6 +147,7 @@ main {
     margin-right: auto; 
     max-width: 50%;
     min-height: 85vh;
+    flex:1;
 }
 
 figure {
