@@ -75,7 +75,7 @@ if (window.location.href.includes("energy-template.html")) {
     const wind = new energy("Wind",
         "<h3>Wind Energy At Home</h3><p>Using the wind to power your home is a great way to save money in the long run and lower your carbon footprint. Here are a couple of things to consider if you are thinking of implementing it in your home.</p><ul><li>Does your property get a lot of wind.</li><li>Do you have enough space to use them effectively.</li><li>Are tall towers/turbines allowed in your neighborhood.</li><li>Does it work for you economically.</li></ul>",
         "<h3>Basic Info</h3><p>The best way to incorporate wind power into your home is through a Small Wind Energy System. These systems can be integrated with solar and battery storage as a backup energy source and can power an entire house if you have a large enough quantity. Typical residential wind turbines produce about 5 to 30 kilowatts of power on average.</p>",
-        "<h3>Tax Rebates</h3>",
+        "<h3>Tax Rebates and Credit</h3><p>30% of the cost is payed for by the consumer through to January 1st, 2033.</p>",
         "<h3>Costs</h3><p>The cost to perchase and install a small wind energy system can range from $10,000 to $70,000 depending on how many and how high tech the one your are perchasing is.</p>"
     )
 
