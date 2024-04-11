@@ -54,7 +54,7 @@ if (window.location.href.includes("energy-template.html")) {
 
     const bio = new energy("Biomass",
         "<h3>Biomass Energy at Home</h3><p>Use Wood + Pellet Stoves / Boilers</p><img src=\"biomass.jpg\" alt=\"wood chips\" width=\"259\">",
-        "",
+        "<h3>Basic Info</h3><p>Biomass Energy uses wood, pellets, and natural resources to produce energy. This makes it renewable and 100% carbon neutral, meaning switching to it will greatly reduce the amount of greenhouse gasses emitted.</p>",
         "<h3>Tax Rebates and Credit</h3><p>If you use wood + pellet stoves/boilers, can get 30% of the cost paid by the consumer, up to $2000 a year.</p>",
         ""
     )
