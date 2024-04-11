@@ -47,16 +47,10 @@ if (window.location.href.includes("energy-template.html")) {
 
     const geo = new energy("Geothermal",
         "<h3>Geothermal Energy At Home</h3><p>Geothermal energy is normally implamented in houses by using heat pumps for cooling or heating air and providing hot water.</p><img src=\"geothermal.jpg\" alt=\"Geothermal system diagram\" width=\"259\" height=\"194\"><p>Some things to consider if you are looking at using geothermal heat pumps for your home</p><ul><li>The composition of your soil and rock</li><li>The amount and layout of your land</li><li>Ground and surface water avaliability</li></ul>",
-        "<h3>Basic Info</h3><p>Heat pumps move heat around rather than producing it, lowering energy usage. Geothermal heat pumps can be up to 2-3 times better than air source heat pumps, but do cost more on the flip side.</p>",
+        "<h3>Basic Info</h3><p>Instead of producing their own heat, heat pumps move heat and energy that is already there by using the heat that is already in the ground. Geothermal heat pumps can be up to 2-3 times better than air source heat pumps, but do cost more on the flip side. There are 4 main types of geothermal heat pumps, Horizontal, Vertical, Pond/Lake, and Open-loop systems.</p>",
         "<h3>Tax Rebates</h3><p>There is a tax credit of 30% with an annual cap of $1200.</p>",
-        "<h3>Costs</h3><p>About $10,000 to $20,000 for a geothermal heat pump including installation. They pay themselves off after aproximately 10 years.</p>"
+        "<h3>Costs</h3><p>It costs about $10,000 to $20,000 to buy a geothermal heat pump including installation. They pay themselves off after aproximately 10 years.</p>"
     )
-
-
-
-
-
-
 
     const bio = new energy("Biomass",
         "",
@@ -80,10 +74,10 @@ if (window.location.href.includes("energy-template.html")) {
     )
 
     const hydro = new energy("Hydro",
-        "",
-        "",
-        "",
-        ""
+        "<h3>Hydro Power At Home</h3><p>Microhydropower systems can be an extremely simple and efficient form of energy for homeowners, as long as you live close or next to flowing water.</p>",
+        "<h3>Basic Info</h3><p>Hydroelectric energy uses the flow and movement of water in order to create electricity. It is one of the oldest and largest renewable sources of energy. Hydroelectric energy provides up to $5.50 per megawatt-hour of electricity, plus $22 per megawatt-hour if labor standards are met. There is also up to 2.75 cents per kilowatt-hour dollars from qualified renewable sources.</p>",
+        "<h3>Tax Rebates and Credit</h3><p>Tax rebates</p>",
+        "<h3>Costs</h3><p>On average hydroelectric energy is 0.85 cents per kilowatt-hour, which is $850 per megawatt-hour. With the average megawatt-hour usage for a home being 10.8, this means on average hydroelectric power costs $9180 per year. It will pay itself off in about 15 years.</p>"
     )
 
     const replaceItem = (energyType) => {
