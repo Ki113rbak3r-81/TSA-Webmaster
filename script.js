@@ -39,17 +39,17 @@ if (window.location.href.includes("energy-template.html")) {
     }
 
     const solar = new energy("Solar", 
-        "<h3>Solar Energy At Home</h3><p>You can use solar power to both provide electricity and heating to your home.</p><img src=\"solar.jpg\"> alt=\"Solar Panels\"",
-        "<h3>Basic Info</h3><p>Two Types of solar electric systems</p><ul><li>Grid tied - home generates own electricity, but can use the power grid at night if needed</li><li>Off grid - not connected to the grid, is self sufficient, stores electricity in batteries for the night</li></ul>",
+        "<h3>Solar Energy At Home</h3><p>You can use solar power to both provide electricity and heating to your home.</p><img src=\"solar.jpg\" alt=\"Solar Panels\">",
+        "<h3>Basic Info</h3><p>Two Types of solar electric systems</p><ul><li>Grid tied: home generates own electricity, but can use the power grid at night if needed</li><li>Off grid: not connected to the grid, is self sufficient, stores electricity in batteries for the night</li></ul>",
         "<h3>Tax Rebates</h3><h4>Oregon Solar + Storage Rebate</h4><ul><li>Is for homeowners that want to install solar electric systems and storage.</li><li>Normal income homeowners can receive up to $5000 for the solar electric system and up to $2500 for the storage systems</li><li>Low income providers cna save up to $30000 for solar, and $15000 for storage.<ul><li>Must be installed by an ODOE approved contractor + both systems must be bought together in order to get the paired storage rebate.</li></ul></li></ul>",
         "<h3>Costs</h3><ul><li>Grid tied system -- approximately $15,000 - $20,000</li><li>Off grid system -- approximately $45,000 - $65,000</li><li>Pay themselves off after approximately 8 years, but can range anywhere from 5 to 15.</li></ul>"
     )
 
     const geo = new energy("Geothermal",
-        "<h3>Geothermal Energy At Home</h3><p>Heating pumps for cooling or heating air</p><img src=\"geothermal.jpg\" alt=\"Geothermal system diagram\" width=\"259\" height=\"194\">",
-        "<h3>Basic Info</h3><p>Heat pumps -- move heat around rather than producing it, lowering energy usage.</p>",
+        "<h3>Geothermal Energy At Home</h3><p>Geothermal energy is normally implamented in houses by using heat pumps for cooling or heating air and providing hot water.</p><img src=\"geothermal.jpg\" alt=\"Geothermal system diagram\" width=\"259\" height=\"194\"><p>Some things to consider if you are looking at using geothermal heat pumps for your home</p><ul><li>The composition of your soil and rock</li><li>The amount and layout of your land</li><li>Ground and surface water avaliability</li></ul>",
+        "<h3>Basic Info</h3><p>Heat pumps move heat around rather than producing it, lowering energy usage. Geothermal heat pumps can be up to 2-3 times better than air source heat pumps, but do cost more on the flip side.</p>",
         "<h3>Tax Rebates</h3><p>There is a tax credit of 30% with an annual cap of $1200.</p>",
-        "<h3>Costs</h3><p>About $10,000 to $20,000 for a geothermal heat pump including installation.</p>"
+        "<h3>Costs</h3><p>About $10,000 to $20,000 for a geothermal heat pump including installation. They pay themselves off after aproximately 10 years.</p>"
     )
 
 
