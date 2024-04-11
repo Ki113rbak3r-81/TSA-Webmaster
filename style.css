@@ -61,6 +61,7 @@ html {
 
 body {
     min-height: 100vh;
+    display:flex; flex-direction: column;
 }
 
 a {
@@ -81,6 +82,7 @@ h4 {
 
 ul {
     margin-left: 20px;
+    list-style-position: inside;
 }
 
 /* Header */
@@ -90,7 +92,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
-    max-height: 15vh;
+    min-height: 15vh;
 }
 
 header > section {
@@ -99,7 +101,7 @@ header > section {
     margin-right: auto;
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -131,12 +133,13 @@ header > section > nav > * + * {
     display: block;
     color: ivory;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 15px;
     text-decoration: none;
 }
 
 .nav-list-item > a:hover {
-    background-color: aquamarine;
+    background-color: white;
+    color:rgb(106, 161, 95);
 }
 
 
@@ -144,13 +147,48 @@ header > section > nav > * + * {
 main {
     margin-left: auto;
     margin-right: auto; 
-    max-width: 50%;
+    max-width: 60%;
     min-height: 85vh;
+    flex:1;
+    background-color: rgb(254, 254, 254);
+}
+
+main h2 {
+    padding: 5px;
+    background-color: rgb(79, 140, 67);
+    text-align: center;
+    color: white;
+}
+
+main > article {
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+main > article > ul > li {
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+main > article > ul > li > ul {
+    padding: 5px;
+    padding-bottom: 3px;
+}
+
+main > article > ul > li > ul > li {
+    line-height: 150%;
+}
+
+.type {
+    font-weight: bold;
 }
 
 figure {
     text-align: center;
     border: 1px solid black;
+    overflow: auto;
     
 }
 
@@ -171,6 +209,47 @@ figcaption {
     
 }
 
+.text {
+    padding: 5px;
+}
+.text img{
+    margin: 5px;
+}
+.text p {
+    padding-top: 5px;
+    line-height: 125%;
+}
+
+.text ul {
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+.text li {
+    padding: 5px;
+}
+
+.text h3 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: rgb(5, 41, 5);
+}
+.text h4 {
+    padding-top: 5px;
+}
+
+#basics {
+    border-width: 10px;
+    background-color: rgb(237, 247, 235);
+    border-color: rgb(237, 247, 235);
+}
+
+#costs {
+    margin-bottom: 20px;
+    background-color: rgb(237, 247, 235);
+}
+
 .brocolli {
     justify-content: space-around;
 }
@@ -179,12 +258,17 @@ figcaption {
 #general > h2 {
     text-align: center;
     background-color: rgb(79, 140, 67);
+    font-weight: bold;
 }
 
 #general > p {
     font-size: 1.375rem;
+    padding: 5px;
 }
 
+#abt {
+    font-weight: bold;
+}
 
 /* About Section */
 
