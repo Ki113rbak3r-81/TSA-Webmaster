@@ -239,6 +239,7 @@ main {
     margin-right: auto; 
     max-width: 56rem;
     min-height: 90vh;
+    
 }
 
 
@@ -330,7 +331,6 @@ footer {
     font-size: 1.25rem;
     line-height: 1.75rem;
     bottom: 0;
-    
 }
 
 footer > section {

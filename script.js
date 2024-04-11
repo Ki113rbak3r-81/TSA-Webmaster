@@ -1,3 +1,20 @@
+const solarhref = document.getElementsByClassName("solar");
+const geohref = document.getElementsByClassName("geo");
+const biohref = document.getElementsByClassName("bio");
+const nuclearhref = document.getElementsByClassName("nuclear");
+const windhref = document.getElementsByClassName("wind");
+const hydrohref = document.getElementsByClassName("hydro");
+
+
+// All have the same amount of items
+for (let i = 0; i < solarhref.length; i++) {
+    solarhref.item(i).addEventListener('click', () => {localStorage.setItem("energyType", "Solar")});
+    geohref.item(i).addEventListener('click', () => {localStorage.setItem("energyType", "Geothermal")});
+    biohref.item(i).addEventListener('click', () => {localStorage.setItem("energyType", "Biomass")});
+    nuclearhref.item(i).addEventListener('click', () => {localStorage.setItem("energyType", "Nuclear")});
+    windhref.item(i).addEventListener('click', () => {localStorage.setItem("energyType", "Wind")});
+    hydrohref.item(i).addEventListener('click', () => {localStorage.setItem("energyType", "Hydro")});
+}
 
 if (window.location.href.includes("energy-template.html")) {
     const energyTypeTag = document.getElementById("energy-type");
@@ -8,12 +25,7 @@ if (window.location.href.includes("energy-template.html")) {
 
     
 
-    const solarhref = document.getElementsByClassName("solar");
-    const geohref = document.getElementsByClassName("geo");
-    const biohref = document.getElementsByClassName("bio");
-    const nuclearhref = document.getElementsByClassName("nuclear");
-    const windhref = document.getElementsByClassName("wind");
-    const hydrohref = document.getElementsByClassName("hydro");
+    
 
     // Also an option instead of the const solar I currently have
     class energy {
@@ -92,8 +104,6 @@ if (window.location.href.includes("energy-template.html")) {
             case 'Hydro':
                 return hydro;
             default:
-                // Handle invalid or unsupported energy types
-                // You may choose to return a default energy object or throw an error
                 return null;
         }
     }
